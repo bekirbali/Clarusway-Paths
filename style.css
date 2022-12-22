@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(30, 4, 102),
+    rgb(124, 25, 124),
+    rgb(9, 129, 165),
+    rgb(44, 187, 187)
+  );
+}
+
+.main-title {
+  font-family: "Rubik Vinyl", cursive;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  padding: 14px;
+}
+
+.container {
+  width: 85vw;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.img-box {
+  width: 30%;
+  aspect-ratio: 3/2;
+  padding: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: none;
+}
+
+.img-box:hover {
+  width: 450px;
+}
+:hover .text {
+  width: 60%;
+}
+
+.box {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.354);
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.box .text {
+  width: 70%;
+  padding-right: 25px;
+  margin-left: -11px;
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+}
+
+.box h3 {
+  color: #f4a460;
+  font-size: 2rem;
+  font-family: "EB Garamond", serif;
+}
+
+.box p {
+  color: white;
+  font-size: 1rem;
+}
+
+.box .btn {
+  background-color: #ff7f50;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px;
+  position: absolute;
+  right: 45px;
+  top: 100px;
+}
+
+.box .btn:hover {
+  background-color: #b12f00;
+  height: 50px;
+  width: 120px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.box a {
+  text-decoration: none;
+  color: white;
+}
